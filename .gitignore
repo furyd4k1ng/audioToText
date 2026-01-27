@@ -1,55 +1,54 @@
-# Prerequisites
-*.d
+## Build results
+bin/
+obj/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+## Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+.idea/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-# Precompiled Headers
-*.gch
-*.pch
+## Debug / Release
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+AnyCPU/
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+## Logs
+*.log
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+## Test results
+TestResults/
+*.trx
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+## Publish
+publish/
+*.Publish.xml
+## OS files
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+## Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
 
-# debug information files
-*.dwo
+## Coverage
+coverage/
+*.coverage
+*.coveragexml
